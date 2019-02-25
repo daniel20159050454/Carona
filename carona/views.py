@@ -9,7 +9,8 @@ config = {
     'messagingSenderId': "515951233420" 
 }
 firebase = pyrebase.initialize_app(config) 
-auth = firebase.auth() 
+auth = firebase.auth()
+
 def singIn(request):
     return render(request, "signIn.html")
 

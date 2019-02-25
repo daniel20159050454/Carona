@@ -8,6 +8,8 @@ config = {
     'storageBucket': "my-first-app-212319.appspot.com",
     'messagingSenderId': "515951233420" 
 }
+
+
 firebase = pyrebase.initialize_app(config) 
 auth = firebase.auth()
 
